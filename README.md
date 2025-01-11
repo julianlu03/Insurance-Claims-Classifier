@@ -9,13 +9,13 @@ This project is aimed to improve the company's performance in the following key 
 
 # Data Structure
 
-There are **10,000 instances** in the dataset, with 19 features.
+There are **10,000 instances** in the dataset
 
 **claim_made** is the binary target feature in the dataset; 0 means no claim was filed and 1 means a claim was filed.
 
 The target feature has a skewed distribution in the data, with negative claims making up 68.7% of total claims. This is addressed via oversampling during the project, which fixes the class inbalance when training the model. 
 
-Other than claim_made, the dataset consists of 18 features in the following categories:
+Other than claim_made, the dataset consists of **19 features** in the following categories:
 
 **Demographic Information:** Age, gender, education, etc.
 
